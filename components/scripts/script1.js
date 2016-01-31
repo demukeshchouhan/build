@@ -3,4 +3,4 @@ $ = require("jQuery");
 
 $("h1").css({
   "color" : "#f07845"
-})
+});

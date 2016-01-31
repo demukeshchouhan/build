@@ -4,9 +4,15 @@ $ = require("jQuery");
 
 $("h1").css({
   "color" : "#f07845"
-})
+});
 
 console.log("javscript file 2 logging....");
+
+$ = require("jQuery");
+
+$("button").on("click",function(){
+  console.log("clicked...");
+});
 
 },{"jQuery":2}],2:[function(require,module,exports){
 /*!
